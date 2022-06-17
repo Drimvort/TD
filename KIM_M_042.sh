@@ -1,7 +1,7 @@
 #!/bin/bash
 ls | grep \sh$
-mkdir dir1
-cd dir1
+mkdir Files
+cd Files
 for ((i=1; i<10; i++)) do
 echo "0"$i".txt
 0"$i".txt
@@ -21,4 +21,4 @@ echo > $i.txt
 fallocate -l "$i"MB "$i".txt
 done
 ls -l
-cat 01.txt
+cat 02.txt
